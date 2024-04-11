@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Equipment Card</title>
+    <link rel="stylesheet" href="style 7.css">
+</head>
+<body>
+    <h1 class="header">Equipment Maintenance Report</h1>
+    <div class="container">
+        <div class="inner">
+            <!-- Input for image selection -->
+            <input type="file" class="image" accept="image/*">
+            <!-- Placeholder image -->
+            <img class="equipment-image" src="placeholder.jpg" alt="Equipment Image">
+        </div>
+        <div class="button">
+            <span class="span1"></span>
+            <span class="span1"></span>
+        </div>
+        <!-- Input for equipment name -->
+        <label for="equipment-name"></label>
+        <input type="text" id="equipment-name" class="equipment-name" placeholder="Enter Equipment Name">
+        <!-- Textarea for maintenance report -->
+        <textarea class="maintenance-report" placeholder="Maintenance Report"></textarea>
+        <div class="last"><button class="read-more-button">Read More</button></div>
+    </div>
+    <!-- Button to add another card -->
+    <button class="add-card-button">Add New Equipment</button>
+
+    <script src="script 7.js"></script>
+</body>
+</html>

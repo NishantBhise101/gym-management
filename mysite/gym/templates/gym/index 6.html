@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Attendance Management</title>
+  <link rel="stylesheet" href="style 6.css">
+</head>
+<body>
+  <h1>Gym Attendance Management</h1>
+  <div id="attendance-container">
+    <h2>Mark Attendance</h2>
+    <form id="attendance-form">
+      <div class="form-group">
+        <label for="membership-id-input">Membership ID:</label>
+        <input type="text" id="membership-id-input" name="membership-id" required>
+      </div>
+      <button type="submit">Mark Attendance</button>
+    </form>
+    <p id="attendance-message"></p>
+  </div>
+  <h2>Attendance Report (Today)</h2>
+  <div id="content-container">
+  <div id="content-container">
+  <table id="attendance-table">
+    <thead>
+      <tr>
+        <th>Membership ID</th>
+        <th>Name</th>
+        <th>Attendance Time</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </div>
+  </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

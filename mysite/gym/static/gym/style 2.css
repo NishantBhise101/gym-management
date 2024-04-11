@@ -1,0 +1,78 @@
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow */
+    transition: transform 0.3s ease; /* Adding transition for smoother hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Increase heading font size */
+  }
+  
+  .card p {
+    font-weight: bold;
+    color: #555; /* Darken text color */
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease; /* Adding transition for smoother hover effect */
+  }
+  
+  .card a:hover {
+    color: #0056b3; /* Darken link color on hover */
+  }
+  
+  .chart {
+    width: calc(66% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card, .chart {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card, .chart {
+      width: 100%;
+    }
+  }
+  
