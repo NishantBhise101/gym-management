@@ -21,11 +21,11 @@
          </header>
            <button class="login-button"><a href="{% static 'gym/index1.html' %}" target="_blank">Login</a></button>
         </div>      
-          <li><a href="{% static 'gym/index2.html' %}" target="_blank">Dashboard</a></li>
-          <li><a href="{% static 'gym/index3.html' %}" target="_blank">Register Trainer</a></li>
-          <li><a href="{% static 'gym/index4.html' %}" target="_blank">Register Member</a></li>
-          <li><a href="{% static 'gym/index5.html' %}" target="_blank">Members Information</a></li>
-          <li><a href="{% static 'gym/index6.html' %}" target="_blank">Attendance</a></li>
+          <li><a href="{% url 'dashboard' %}" target="_blank">Dashboard</a></li>
+          <li><a href="{% url 'reg_trainer' %}" target="_blank">Register Trainer</a></li>
+          <li><a href="{% url 'reg_member' %}" target="_blank">Register Member</a></li>
+          <li><a href="{% url 'member_info' %}" target="_blank">Members Information</a></li>
+          <li><a href="{% url 'attendance' %}" target="_blank">Attendance</a></li>
       </ul>
     </nav>
 
