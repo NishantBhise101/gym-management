@@ -1,0 +1,130 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Admin Dashboard</title>
+  <link rel="stylesheet" href="{% static 'gym/home.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Start Header and Nav-bar -->
+<div class="a1">
+    <nav>
+      <ul>
+        <div class="login">
+         <header>
+          <h1>TITAN GYM</h1>
+          <h5>Your Gym's Strategic Command Center</h5>
+         </header>
+           <button class="login-button"><a href="{% static 'gym/index1.html' %}" target="_blank">Login</a></button>
+        </div>      
+          <li><a href="{% static 'gym/index2.html' %}" target="_blank">Dashboard</a></li>
+          <li><a href="{% static 'gym/index3.html' %}" target="_blank">Register Trainer</a></li>
+          <li><a href="{% static 'gym/index4.html' %}" target="_blank">Register Member</a></li>
+          <li><a href="{% static 'gym/index5.html' %}" target="_blank">Members Information</a></li>
+          <li><a href="{% static 'gym/index6.html' %}" target="_blank">Attendance</a></li>
+      </ul>
+    </nav>
+
+  <script src="{% static 'gym/script_home.js' %}"></script>
+  
+<!-- End Header and Nav-bar -->
+
+<!-- Start Stats -->
+
+  <div class="button">
+      <span class="span1"></span>
+  </div>
+
+  <div class="container">
+      <!--<h1 class="Gym-Stats">Gym Stats</h1>-->
+      <div class="stats">
+        <div class="stat">
+          <h2>Total Members</h2>
+          <p id="total-members">0</p>
+        </div>
+        <div class="stat">
+          <h2>Total Trainees</h2>
+          <p id="total-trainees">0</p>
+        </div>
+      </div>
+  </div>
+
+<!-- End Stats -->
+
+<!-- Start Equipment Reports -->
+<div class="main1">
+  <div class="reports">
+      <div class="report1">Check Equipment Report</div>
+      <div class="report2">Better the equipment maintenance, longer the life.</div>
+      <!-- <button class="button1">Check Report</button> -->
+      <button class="button1"><a href="{% static 'gym/index7.html' %}" target="_blank">Check Report</a></button>
+  </div>
+  <img class="image1" src="{% static 'gym/Treadmill2.jpg' %}">
+</div>
+<script src="{% static 'gym/script_home.js' %}"></script>
+<!-- End Equipment Reports -->
+
+ <!-- Start About -->
+ <section class="about" id="about">
+  <div class="container1">
+      <div class="content">
+           <div class="box wow bounceInUp">
+                <div class="inner">
+                     <div class="img">
+                         <img src="{% static 'gym/about1.jpg' %}" alt="about">
+                     </div>
+                   <div class="text">
+                        <h4>Free Consultation</h4>
+                        <p>1. An hour session with a trainer</p>
+                        <p>2. Chat about your health & fitness goals and past workout history</p>
+                        <p>3. Tour the gym</p>
+                        <p>4. A brief warm-up</p>
+                        <p>5. A light workout</p>
+                        <p>6. A fitness plan for your first 30 days</p>
+                        <p>7. Regular Follow-Up</p>
+                   </div>
+                </div>
+           </div>
+             <div class="box wow bounceInUp" data-wow-delay="0.2s">
+                <div class="inner">
+                     <div class="img">
+                         <img src="{% static 'gym/about2.jpg' %}" alt="about">
+                     </div>
+                   <div class="text">
+                        <h4>Best Training</h4>
+                        <p>We provide the best training solutions tailored to meet your specific needs and goals. Our team of expert trainers is dedicated to delivering high-quality instruction. Join us today and experience the difference that our best-in-class training can make in your professional development journey.</p>
+                   </div>
+                </div>
+           </div>
+           <div class="box wow bounceInUp" data-wow-delay="0.4s">
+                <div class="inner">
+                     <div class="img">
+                         <img src="{% static 'gym/about3.jpg' %}" alt="about">
+                     </div>
+                   <div class="text">
+                        <h4>Build Perfect Body</h4>
+                        <p>With state-of-the-art facilities, cutting-edge equipment, and a supportive community of like-minded individuals, we provide the ideal environment for you to thrive. Whether you're a beginner or a seasoned athlete, we welcome you to join us on your journey to building the perfect body.</p>
+                   </div>
+                </div>
+           </div>
+      </div>
+  </div>
+</section>
+<!-- End About -->
+
+<!-- Start Price -->
+<section class="price-package" id="price">
+<div class="container2">
+    <h2>Some Premium Packages</h2>
+    <p class="title-p">Explore our premium packages designed to take your fitness journey to the next level. Each package is meticulously crafted to offer you exclusive benefits ensuring that you receive the highest quality of service and support.</p>
+    <div class="content">
+        <div class="box wow bounceInUp">
+            <div class="inner">
+                 <div class="price-tag">
+                     Rs. 3000 / Month
+                 </div>
+                 <div cla

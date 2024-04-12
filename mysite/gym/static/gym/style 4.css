@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  /* background-image: url(https://img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg); */
+  /* background-image: url(https://img.freepik.com/premium-photo/illustration-fitness-equipments-design-background_916191-36299.jpg); */
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/026/486/869/small/workout-mockup-background-generate-ai-photo.jpg);
+  background-size: cover;
+  
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px; /* Increased padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+ 
+}
+
+h2 {
+  text-align: center;
+  color: #4400ff;
+  margin-bottom: 20px; /* Increased margin for better separation from form */
+  margin-top: 1px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Increased margin for better separation between form rows */
+}
+
+.form-group {
+  flex-basis: calc(33.33% - 20px); /* Adjusted flex-basis */
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Increased margin for better separation between label and input */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: calc(100% - 22px); /* Adjusted width to account for padding and border */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  border-color: #007bff;
+}
+
+button {
+  display: block;
+  /* width: 100%; */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 350px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

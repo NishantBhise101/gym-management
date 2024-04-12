@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1{
+    text-align: center;
+    background-color: rgb(0, 247, 255);
+  }
+
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Attendance container */
+  #attendance-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Add rounded corners for a softer look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  #content-container {
+    min-height: 100vh; /* Set a minimum height for the container */
+    background-image: url("https://img.freepik.com/premium-photo/white-wall-clean-cement-background-textured-blank-copy-space_24076-674.jpg");
+    background-repeat: repeat-y; /* Repeat the image vertically */
+    background-repeat: repeat-x; 
+    background-size: cover;
+  }
+  
+  /* Form styling */
+  #attendance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    flex: 0 0 100px;
+    font-weight: bold; /* Bold labels for better readability */
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Add subtle border radius to input field */
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green color for submit button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for button */
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45A049; /* Darker green on hover */
+  }
+  
+  #attendance-message {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  /* Attendance table */
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Allow table to fill container width */
+    border-radius: 5px; /* Rounded corners for the table */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle table shadow */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Bold text for table headers */
+  }
+  
