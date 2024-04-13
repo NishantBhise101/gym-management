@@ -1,0 +1,454 @@
+header {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bolder;
+    color: #000000;
+    margin-right: 220px;
+  }
+
+h1{
+    height: 20px;
+    margin-top: 2px;
+    font-size: 30px;
+    margin-left: 50px;
+    
+}
+
+.span1{
+    color: red;
+}
+
+h5{
+    font-size: 12px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+nav {
+    padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;  
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0400ff;
+}
+
+.head1{
+    display: flex;
+
+}
+
+.span2 {
+    display: flex;
+    width: 2000px;
+    height: 1px;
+    background-color: rgb(209, 199, 199);
+    
+}
+
+.quote{
+     font-weight: bolder;
+     font-size: 40px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-top: 150px;
+     margin-left: 160px;
+}
+
+.quote1{
+      font-weight: medium;
+      font-size:15px ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 160px;
+      margin-top: 30px;
+}
+
+.login-button{
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    font-weight:lighter;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    margin-top: 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+ }
+ 
+ .login-button:hover{
+   background-color: #e0dddd;
+ }
+
+ .image{
+    display: flex;
+ }
+
+ .image1{
+    height: 300px;
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 140px;
+ }
+
+ 
+  /* Start About  */
+
+.span3{
+    display: flex;
+    width: 800px;
+    height: 1px;
+    background-color: rgb(209, 199, 199);
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
+}
+
+.our-services{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #000000;
+  margin-left: 440px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.container1{
+  margin-left: 130px;
+}
+
+.about{
+	padding:1px 0px;
+	background-color:#ffffff;
+}
+
+.about .content{ 
+ -webkit-display: flex;
+ display: flex;
+ width: 950px;
+}
+.about .content .box{ 
+	flex:0 0 33.33%;
+	max-width: 33.33%;
+	padding:15px;
+}  
+.about .content .box .inner{
+	background-color:#222222;
+}
+.about .content .box:nth-child(2) .inner{
+  background-color: #006eff;
+	/* background-color: #c11325; */
+}
+.about .content .box .inner .img img{
+  width:100%;
+}
+.about .content .box .inner .text{
+	padding:30px;
+}
+
+.about .content .box .inner .text h4{
+  font-size: 20px;
+  margin:0;
+  padding: 0px 0px 15px;
+  font-weight: bolder;
+  color: rgb(238, 255, 0);
+  text-transform: capitalize;
+  text-align: center;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about .content .box .inner .text p{
+	font-size: 15px;
+	line-height:20px;
+	color:#ffffff;
+	text-align: center;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+/* End About */
+
+/*Price Section*/
+
+.span3{
+  display: flex;
+  width: 800px;
+  height: 1px;
+  background-color: rgb(209, 199, 199);
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 260px;
+}
+
+.container2{
+   margin-left: 130px;
+}
+.price-package{
+	padding: 80px 0px;
+	background-color: #ffffff;
+  width: 1000px;
+}
+.price-package h2{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #000000;
+  margin-left: 340px;
+  
+  margin-bottom: 30px;
+}
+
+.price-package .title-p{
+ font-size: 15px;
+ line-height: 20px;
+ color:#222222;
+ margin:0;
+ text-align: center;
+ margin-left: 40px;
+ padding:0 20% 50px;
+ font-family: 'Open-sans', sans-serif;
+ width: 600px;
+}
+
+.price-package .content{
+	-webkit-display: flex;
+	display: flex;
+  width: 900px;
+}
+.price-package .content .box{
+	flex:0 0 33.33%;
+	max-width: 33.33%;
+	padding:15px;
+}
+.price-package .content .box .inner{
+	background-color: #f0f0f0;
+}
+.price-package .content .box .inner .price-tag{
+	padding: 15px;
+	font-size: 20px;
+  background-color: #24d41e;
+	/* background-color: #c11325; */
+	color:#ffffff;
+	text-align: center;
+	font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.price-package .content .box .inner .text{
+	padding:30px 15px;
+	text-align: center;
+}
+.price-package .content .box .inner .text h3{
+	font-size: 24px;
+	color:#222222;
+	margin:0;
+	padding:0px 0px 20px;
+	font-weight: 700;
+}
+.price-package .content .box .inner .text p{
+ font-size: 15px;
+ line-height: 20px;
+ color:#222222;
+ margin:0;
+ text-align: center;
+ padding:0 0 5px;
+ font-family: 'Open-sans', sans-serif;
+
+}
+.price-package .content .box .inner .text .btn{
+    padding: 8px 30px;
+    background-color: #24d41e;
+
+    /* background-color: #c11325; */
+    /* color: #ffffff; */
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.price-package .content .box .inner .text .btn:hover{
+	border-color:#222222;
+	color:#222222;
+	background-color: transparent;
+}
+.price-package .content .box .inner .img img{
+	width: 100%;
+}
+
+/* End Price Section */
+
+/*Contact Section*/
+
+.contact{
+	padding:80px 0px;
+	background-color: #f5f5f5;
+  height: 400px;
+}
+
+.contact .content{
+	-webkit-display: flex;
+	display: flex;
+}
+
+.contact .content .box{
+	flex:0 0 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+
+.contact .content .form input,
+.contact .content .form textarea{
+ height: 45px;
+ width: 100%;
+ padding:6px 12px;
+ margin-bottom: 25px;
+ background-color: transparent;
+ border:1px solid #000000;
+ font-family: 'Open-sans',sans-serif;
+ color:#000000;
+ 
+}
+.contact .content .form input:focus,
+.contact .content .form textarea:focus{
+ outline: none;
+}
+.contact .content .form input::placeholder,
+.contact .content .form textarea::placeholder{
+	color:#000000;
+}
+.contact .content .form textarea{
+	height: 100px;
+}
+
+.contact .content .form button{
+	border:none;
+	outline: none;
+	box-shadow: none;
+	height: 45px;
+	padding:0px 50px;
+	border:1px solid transparent;
+	background-color: #c11325;
+	color:#ffffff;
+	font-size: 15px;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+.contact .content .form button:hover{
+	background-color: rgb(143, 2, 2);
+	color:#ffffff; 
+  border-color:#ffffff;
+}
+
+.contact .content .text h2{
+	font-size: 35px;
+    font-weight: 500;
+    color: #000000;
+    padding: 0px 0px 20px;
+    margin-left: 70px;
+    margin-top: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact .content .text p{
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+    padding: 0px 0px 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 70px;
+    
+    padding-right: 80px;
+}
+
+.contact .content .text .info ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.contact .content .text .info li{
+	display: block;
+	margin-bottom: 15px;
+	color:#000000;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	padding-left: 40px;
+	font-family: 'Open-Sans',sans-serif;
+  margin-left: 30px;
+}
+.contact .content .text .info li span{
+	display: inline-block;
+	position: absolute;
+	left:0px;
+	top:0px;
+	font-size: 20px;
+	color:#c11325;
+
+}
+.contact .content .text .social {
+	padding-top: 30px;
+}
+.contact .content .text .social a{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #db2033;
+    text-decoration: none;	
+    display: inline-block;
+    margin-right: 10px;
+    transition: all .5s ease;
+    border:1px solid transparent;
+    
+} 
+
+.contact .content .text .social a:hover{
+	background-color: transparent;
+    border-color: #ffffff;
+}
+
+.contact .content .text .social a span{
+	color:#ffffff;
+	font-size: 20px;
+}
+
+.contact .content .text .copy{
+	border-top:1px solid #333333;
+	margin-top: 30px;
+	padding-top: 20px;
+	color:#c5c5c5;
+	font-size: 15px;
+}
+
+
+
+ 

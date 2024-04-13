@@ -1,81 +1,61 @@
 {% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gym Admin Dashboard</title>
-  <link rel="stylesheet" href="{% static 'gym/home.css' %}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'gym/style_home.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- Start Header and Nav-bar -->
-<div class="a1">
-    <nav>
-      <ul>
-        <div class="login">
-         <header>
-          <h1>TITAN GYM</h1>
-          <h5>Your Gym's Strategic Command Center</h5>
-         </header>
-           <button class="login-button"><a href="{% static 'gym/index1.html' %}" target="_blank">Login</a></button>
-        </div>      
-          <li><a href="{% url 'dashboard' %}" target="_blank">Dashboard</a></li>
-          <li><a href="{% url 'reg_trainer' %}" target="_blank">Register Trainer</a></li>
-          <li><a href="{% url 'reg_member' %}" target="_blank">Register Member</a></li>
-          <li><a href="{% url 'member_info' %}" target="_blank">Members Information</a></li>
-          <li><a href="{% url 'attendance' %}" target="_blank">Attendance</a></li>
-      </ul>
-    </nav>
-
-  <script src="{% static 'gym/script_home.js' %}"></script>
-  
-<!-- End Header and Nav-bar -->
-
-<!-- Start Stats -->
-
-  <div class="button">
-      <span class="span1"></span>
-  </div>
-
-  <div class="container">
-      <!--<h1 class="Gym-Stats">Gym Stats</h1>-->
-      <div class="stats">
-        <div class="stat">
-          <h2>Total Members</h2>
-          <p id="total-members">0</p>
+  <div class="head">
+        <nav>
+          <ul>
+            <div class="head1">
+              <header>
+              <h1>TITAN <span class="span1">GYM</span></h1>
+              <h5>Your Gym's Strategic Command Center</h5>
+              </header>
+        
+              <li><a href="index2.html" target="_blank">Dashboard</a></li>
+              <li><a href="index3.html" target="_blank">Register Trainer</a></li>
+              <li><a href="index4.html" target="_blank">Register Member</a></li>
+              <li><a href="index5.html" target="_blank">Members Information</a></li>
+              <li><a href="index6.html" target="_blank">Attendance</a></li>
+            </div>
+          </ul>
+        </nav>
+    </div>
+    <div class="span">
+        <span class="span2"></span>
+    </div>
+    <div class="image">
+      <div class="quotes">
+        <div class="quote">
+          <div>Workout Today</div>
+          <div>For A Better Tomorrow</div>
         </div>
-        <div class="stat">
-          <h2>Total Trainees</h2>
-          <p id="total-trainees">0</p>
-        </div>
-      </div>
+        <div class="quote1">Kickstart your journey towards complete fitness in the gym</div>
+        <button class="login-button"><a href="index1.html" target="_blank">Login</a></button>
+     </div>
+     <image class="image1" src="images/1.jpg"></image>
+    </div>
   </div>
-
-<!-- End Stats -->
-
-<!-- Start Equipment Reports -->
-<div class="main1">
-  <div class="reports">
-      <div class="report1">Check Equipment Report</div>
-      <div class="report2">Better the equipment maintenance, longer the life.</div>
-      <!-- <button class="button1">Check Report</button> -->
-      <button class="button1"><a href="{% static 'gym/index7.html' %}" target="_blank">Check Report</a></button>
-  </div>
-  <img class="image1" src="{% static 'gym/Treadmill2.jpg' %}">
-</div>
-<script src="{% static 'gym/script_home.js' %}"></script>
-<!-- End Equipment Reports -->
-
- <!-- Start About -->
+    <!-- Start About -->
+ <div class="span">
+      <span class="span3"></span>
+ </div>
  <section class="about" id="about">
   <div class="container1">
+    <div class="our-services">Our Services</div>
       <div class="content">
            <div class="box wow bounceInUp">
                 <div class="inner">
                      <div class="img">
-                         <img src="{% static 'gym/about1.jpg' %}" alt="about">
+                         <img src="images/about1.jpg" alt="about">
                      </div>
                    <div class="text">
                         <h4>Free Consultation</h4>
@@ -92,7 +72,7 @@
              <div class="box wow bounceInUp" data-wow-delay="0.2s">
                 <div class="inner">
                      <div class="img">
-                         <img src="{% static 'gym/about2.jpg' %}" alt="about">
+                         <img src="images/about2.jpg" alt="about">
                      </div>
                    <div class="text">
                         <h4>Best Training</h4>
@@ -103,7 +83,7 @@
            <div class="box wow bounceInUp" data-wow-delay="0.4s">
                 <div class="inner">
                      <div class="img">
-                         <img src="{% static 'gym/about3.jpg' %}" alt="about">
+                         <img src="images/about3.jpg" alt="about">
                      </div>
                    <div class="text">
                         <h4>Build Perfect Body</h4>
@@ -117,6 +97,9 @@
 <!-- End About -->
 
 <!-- Start Price -->
+<div class="span">
+  <span class="span3"></span>
+</div>
 <section class="price-package" id="price">
 <div class="container2">
     <h2>Some Premium Packages</h2>
@@ -127,4 +110,102 @@
                  <div class="price-tag">
                      Rs. 3000 / Month
                  </div>
-                 <div cla
+                 <div class="img">
+                    <img src="images/price1.jpg" alt="price">
+                 </div>
+                 <div class="text">
+                     <h3>Body Building Training</h3>
+                     <p>Get Free WiFi</p>
+                     <p>Month to Month</p>
+                     <p>No Time Restrictions</p>
+                     <p>Gym and Cardio</p>
+                     <p>Service Locker Rooms</p>
+                     <a href="" class="btn">Join Now</a>
+                 </div>
+            </div>
+        </div>
+        <div class="box wow bounceInUp" data-wow-delay="0.2s">
+            <div class="inner">
+                 <div class="price-tag">
+                     Rs. 2500 / Month
+                 </div>
+                 <div class="img">
+                    <img src="images/price2.jpg" alt="price">
+                 </div>
+                 <div class="text">
+                     <h3>Body Building Training</h3>
+                     <p>Get Free WiFi</p>
+                     <p>Month to Month</p>
+                     <p>No Time Restrictions</p>
+                     <p>Gym and Cardio</p>
+                     <p>Service Locker Rooms</p>
+                     <a href="" class="btn">Join Now</a>
+                 </div>
+            </div>
+        </div>
+        <div class="box wow bounceInUp" data-wow-delay="0.4s">
+            <div class="inner">
+                 <div class="price-tag">
+                     Rs. 2000 / Month
+                 </div>
+                 <div class="img">
+                    <img src="images/price3.jpg" alt="price">
+                 </div>
+                 <div class="text">
+                     <h3>Body Building Training</h3>
+                     <p>Get Free WiFi</p>
+                     <p>Month to Month</p>
+                     <p>No Time Restrictions</p>
+                     <p>Gym and Cardio</p>
+                     <p>Service Locker Rooms</p>
+                     <a href="" class="btn">Join Now</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- End Price -->
+
+ <!-- Start Contact -->
+ <section class="contact" id="contact">
+  <div class="container">
+     <div class="content">
+         <div class="box form wow slideInLeft">
+            <form>
+               <input type="text" placeholder="Enter Name">
+               <input type="text" placeholder="Enter Email">
+               <input type="text" placeholder="Enter Mobile">
+               <textarea placeholder="Enter Message"></textarea>
+               <button type="submit">Send Message</button>
+            </form>
+         </div>
+         <div class="box text wow slideInRight">
+              <h2>Get Connected with Gym</h2>
+               <p class="title-p">Get connected with us. Call us for more information or visit the gym in person.</p>
+               <div class="info">
+                   <ul>
+                       <li><span class="fa fa-map-marker"></span>Address: Titan Gym, Sector 24, Nashik</li>
+                       <li><span class="fa fa-phone"></span>Mobile: 91 9999999999</li>
+                       <li><span class="fa fa-envelope"></span>E-mail: info@gym.com</li>
+                   </ul>
+               </div>
+               <div class="social">
+                    <a href=""><span class="fa fa-facebook"></span></a>
+                    <a href=""><span class="fa fa-linkedin"></span></a>
+                    <a href=""><span class="fa fa-skype"></span></a>
+                    <a href=""><span class="fa fa-youtube-play"></span></a>
+               </div>
+         </div>
+     </div>
+  </div>
+</section>
+<!-- End Contact -->
+
+
+</div>
+</body>
+</html>
+
+</body>
+</html>
